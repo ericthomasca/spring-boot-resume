@@ -20,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-boot-resume" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -68,7 +68,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.4218391",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "spring.configuration.checksum": "984e479b7068964b42e14007cb441ec9"
   },
   "keyToStringList": {
@@ -111,7 +111,7 @@
       <workItem from="1655506322289" duration="1639000" />
       <workItem from="1655513644198" duration="1822000" />
       <workItem from="1655525661666" duration="1018000" />
-      <workItem from="1655527946305" duration="907000" />
+      <workItem from="1655527946305" duration="1057000" />
     </task>
     <servers />
   </component>
@@ -128,5 +128,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/spring-boot-resume" />
+    </ignored-roots>
   </component>
 </project>
