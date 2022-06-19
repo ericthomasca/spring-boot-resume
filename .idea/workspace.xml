@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4492464-a687-4cae-b052-5dd4af124c2d" name="Changes" comment="back to working WHEW">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bc0a4033-748c-4d24-b702-0e16940cd5de.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bc0a4033-748c-4d24-b702-0e16940cd5de/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bc0a4033-748c-4d24-b702-0e16940cd5de/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bc0a4033-748c-4d24-b702-0e16940cd5de/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/ericthomas/Education.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/ericthomas/Education.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/ericthomas/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/ericthomas/EducationController.java" afterDir="false" />
-    </list>
+    <list default="true" id="e4492464-a687-4cae-b052-5dd4af124c2d" name="Changes" comment="education and controller" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +118,7 @@
       <workItem from="1655568267093" duration="38000" />
       <workItem from="1655568315591" duration="1361000" />
       <workItem from="1655569930952" duration="3148000" />
-      <workItem from="1655590769488" duration="1399000" />
+      <workItem from="1655590769488" duration="1873000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1655529023595</created>
@@ -150,7 +141,28 @@
       <option name="project" value="LOCAL" />
       <updated>1655530684759</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="spring files">
+      <created>1655608223102</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655608223102</updated>
+    </task>
+    <task id="LOCAL-00005" summary="spring files">
+      <created>1655608231143</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655608231143</updated>
+    </task>
+    <task id="LOCAL-00006" summary="education and controller">
+      <created>1655608252625</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655608252625</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +186,8 @@
     <MESSAGE value="setup" />
     <MESSAGE value="junk" />
     <MESSAGE value="back to working WHEW" />
-    <option name="LAST_COMMIT_MESSAGE" value="back to working WHEW" />
+    <MESSAGE value="spring files" />
+    <MESSAGE value="education and controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="education and controller" />
   </component>
 </project>
