@@ -1,5 +1,6 @@
-package ca.ericthomas;
+package ca.ericthomas.education;
 
+import ca.ericthomas.education.Education;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package ca.ericthomas;
+package ca.ericthomas.education;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
