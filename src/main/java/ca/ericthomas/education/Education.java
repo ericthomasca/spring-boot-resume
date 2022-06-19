@@ -16,10 +16,10 @@ import java.time.LocalDate;
  * Education has the following attributes:
  * - ID - primary key
  * - Title - program title
- * - Institution - name of institution
- * - Location - location of institution
- * - Start Date - when the program started
- * - End Date - when the program ended
+ * - Institution - institution name
+ * - Location - institution location
+ * - Start Date - program start date
+ * - End Date - program end date
  *
  * @author Eric Thomas
  */
