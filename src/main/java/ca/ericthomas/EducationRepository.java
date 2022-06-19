@@ -7,3 +7,4 @@ import org.springframework.stereotype.Repository;
 public interface EducationRepository extends CrudRepository <Education, Integer> {
 
 }
+

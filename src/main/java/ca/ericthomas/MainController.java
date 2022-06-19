@@ -8,14 +8,14 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping(path = "/api")
-public class EducationController {
+public class MainController {
 
     public static final String API_ROOT_PATH = "/api";
     public static final String VERSION_1 = "/v1";
     public static final String EDUCATION = "/educations";
     private final EducationRepository educationRepository;
 
-    public EducationController(EducationRepository educationRepository) {
+    public MainController(EducationRepository educationRepository) {
         this.educationRepository = educationRepository;
     }
 
