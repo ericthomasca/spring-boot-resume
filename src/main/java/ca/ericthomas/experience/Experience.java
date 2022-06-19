@@ -1,4 +1,4 @@
-package ca.ericthomas;
+package ca.ericthomas.experience;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
@@ -9,17 +9,13 @@ import javax.persistence.Id;
 import java.time.LocalDate;
 
 /**
- * Simple class to represent a student's experience. This class
- * represents a single work experience. Students may have many
- * of these.
- *
  * Experience has the following attributes:
  * - ID - primary key
  * - Title - job title
- * - Employer - name of employer
- * - Location - location of employer
- * - Start Date - when the program started
- * - End Date - when the program ended
+ * - Employer - employer name
+ * - Location - employer location
+ * - Start Date - program start date
+ * - End Date - program end date
  *
  * @author Eric Thomas
  */
