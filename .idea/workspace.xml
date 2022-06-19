@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4492464-a687-4cae-b052-5dd4af124c2d" name="Changes" comment="move education to package">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/ericthomas/experience/ExperienceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/ericthomas/experience/ExperienceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/ericthomas/skills/Skill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/ericthomas/skills/SkillController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/ericthomas/skills/SkillRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/ericthomas/Experience.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/ericthomas/experience/Experience.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/ericthomas/education/Education.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/ericthomas/education/Education.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/ericthomas/education/EducationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/ericthomas/education/EducationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/ericthomas/education/EducationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/ericthomas/education/EducationRepository.java" afterDir="false" />
+    <list default="true" id="e4492464-a687-4cae-b052-5dd4af124c2d" name="Changes" comment="complete Skill">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/ericthomas/skill/Skill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/ericthomas/skill/SkillController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/ericthomas/skill/SkillRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +130,7 @@
       <workItem from="1655568315591" duration="1361000" />
       <workItem from="1655569930952" duration="3148000" />
       <workItem from="1655590769488" duration="4604000" />
-      <workItem from="1655649809957" duration="3409000" />
+      <workItem from="1655649809957" duration="3803000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1655529023595</created>
@@ -237,7 +230,28 @@
       <option name="project" value="LOCAL" />
       <updated>1655651552000</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="clean package-info.java">
+      <created>1655653900950</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1655653900950</updated>
+    </task>
+    <task id="LOCAL-00016" summary="clean education">
+      <created>1655653936326</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1655653936326</updated>
+    </task>
+    <task id="LOCAL-00017" summary="clean Experience">
+      <created>1655653946094</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1655653946094</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +284,10 @@
     <MESSAGE value="rollback to debug" />
     <MESSAGE value="system file" />
     <MESSAGE value="move education to package" />
-    <option name="LAST_COMMIT_MESSAGE" value="move education to package" />
+    <MESSAGE value="clean package-info.java" />
+    <MESSAGE value="clean education" />
+    <MESSAGE value="clean Experience" />
+    <MESSAGE value="complete Skill" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete Skill" />
   </component>
 </project>
