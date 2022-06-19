@@ -15,12 +15,12 @@ import java.util.Optional;
  * Simple class to represent a student's education. This class
  * represents a single diploma, certificate or degree. Students
  * may have many of these.
- * <p>
+ *
  * Education has the following attributes:
- * - ID - for DB purposes, primary key
- * - Title - program title. ie. "Accelerated Software Development"
- * - Institution - name of institution, university, college or school
- * - Location - location of institution, university, college or school
+ * - ID - primary key
+ * - Title - program title
+ * - Institution - name of institution
+ * - Location - location of institution
  * - Start Date - when the program started
  * - End Date - when the program ended
  *
@@ -36,10 +36,10 @@ public class Education {
     private String institution;
     private String location;
 
-    @JsonFormat(pattern = "yyyy-MM-dd")  //yyyy-MM-dd
+    @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate startDate;
 
-    @JsonFormat(pattern = "yyyy-MM-dd")  //yyyy-MM-dd
+    @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate endDate;
 
     public Integer getId() {
