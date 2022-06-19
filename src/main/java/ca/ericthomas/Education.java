@@ -11,25 +11,20 @@ import javax.persistence.Id;
 import java.time.LocalDate;
 import java.util.Optional;
 
-// TODO customize to match web site style
-
 /**
- * Simple class to represent a students education. This class
+ * Simple class to represent a student's education. This class
  * represents a single diploma, certificate or degree. Students
  * may have many of these.
- *
+ * <p>
  * Education has the following attributes:
- *  - ID - for DB purposes, primary key
- *  - Title - program title. ie. "Accelerated Software Development"
- *  - Institution - name of institution, university, college or school
- *  - Grad Year - year of the class. ie. "Class of 2022"
- *  - Start Date - when the program started
- *  - End Date - when the program ended
- *  - Abbreviation - how the degree is denoted. ie. "ASD"
+ * - ID - for DB purposes, primary key
+ * - Title - program title. ie. "Accelerated Software Development"
+ * - Institution - name of institution, university, college or school
+ * - Location - location of institution, university, college or school
+ * - Start Date - when the program started
+ * - End Date - when the program ended
  *
- *  Future considerations - Degree type?
- *
- * @author Josh
+ * @author Eric Thomas
  */
 @Entity(name = "education")
 public class Education {
@@ -38,17 +33,14 @@ public class Education {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
     private String title;
+    private String institution;
+    private String location;
 
-    private String institutionName;
-    private Integer gradYear;
-
-    @JsonFormat(pattern="yyyy-MM-dd")  //yyyy-MM-dd
+    @JsonFormat(pattern = "yyyy-MM-dd")  //yyyy-MM-dd
     private LocalDate startDate;
 
-    @JsonFormat(pattern="yyyy-MM-dd")  //yyyy-MM-dd
+    @JsonFormat(pattern = "yyyy-MM-dd")  //yyyy-MM-dd
     private LocalDate endDate;
-
-    private String abbreviation;
 
     public Integer getId() {
         return id;
@@ -66,20 +58,20 @@ public class Education {
         this.title = title;
     }
 
-    public String getInstitutionName() {
-        return institutionName;
+    public String getInstitution() {
+        return institution;
     }
 
-    public void setInstitutionName(String institutionName) {
-        this.institutionName = institutionName;
+    public void setInstitution(String institution) {
+        this.institution = institution;
     }
 
-    public Integer getGradYear() {
-        return gradYear;
+    public String getLocation() {
+        return location;
     }
 
-    public void setGradYear(Integer gradYear) {
-        this.gradYear = gradYear;
+    public void setLocation(String location) {
+        this.location = location;
     }
 
     public LocalDate getStartDate() {
@@ -96,13 +88,5 @@ public class Education {
 
     public void setEndDate(LocalDate endDate) {
         this.endDate = endDate;
-    }
-
-    public String getAbbreviation() {
-        return abbreviation;
-    }
-
-    public void setAbbreviation(String abbreviation) {
-        this.abbreviation = abbreviation;
     }
 }
