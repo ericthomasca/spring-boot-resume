@@ -9,10 +9,6 @@ import javax.persistence.Id;
 import java.time.LocalDate;
 
 /**
- * Simple class to represent a student's education. This class
- * represents a single diploma, certificate or degree. Students
- * may have many of these.
- *
  * Education has the following attributes:
  * - ID - primary key
  * - Title - program title
