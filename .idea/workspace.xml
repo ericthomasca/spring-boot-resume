@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4492464-a687-4cae-b052-5dd4af124c2d" name="Changes" comment="clean imports">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/spring.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/ericthomas/education/Education.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/ericthomas/education/Education.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts.js" beforeDir="false" />
-    </list>
+    <list default="true" id="e4492464-a687-4cae-b052-5dd4af124c2d" name="Changes" comment="tweaking" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +132,7 @@
       <workItem from="1655590769488" duration="4604000" />
       <workItem from="1655649809957" duration="4832000" />
       <workItem from="1655658661803" duration="1246000" />
-      <workItem from="1655682572839" duration="3877000" />
+      <workItem from="1655682572839" duration="4796000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1655529023595</created>
@@ -275,7 +267,35 @@
       <option name="project" value="LOCAL" />
       <updated>1655654960725</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="fix up web component">
+      <created>1655687307391</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1655687307391</updated>
+    </task>
+    <task id="LOCAL-00021" summary="tweaking">
+      <created>1655687323789</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1655687323789</updated>
+    </task>
+    <task id="LOCAL-00022" summary="tweaking">
+      <created>1655687336875</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1655687336875</updated>
+    </task>
+    <task id="LOCAL-00023" summary="tweaking">
+      <created>1655687430354</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1655687430354</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +333,8 @@
     <MESSAGE value="clean Experience" />
     <MESSAGE value="complete Skill" />
     <MESSAGE value="clean imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean imports" />
+    <MESSAGE value="fix up web component" />
+    <MESSAGE value="tweaking" />
+    <option name="LAST_COMMIT_MESSAGE" value="tweaking" />
   </component>
 </project>
