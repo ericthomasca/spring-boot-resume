@@ -10,7 +10,7 @@ import java.util.Optional;
 @RequestMapping(path = "/api")
 public class EducationController {
 
-    public static final String EDUCATION = "/educations";
+    public static final String EDUCATION = "/education";
     private final EducationRepository educationRepository;
 
     public EducationController(EducationRepository educationRepository) {
