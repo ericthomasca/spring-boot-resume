@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="dataSourceStorageLocal" created-in="IU-221.5787.30">
+  <component name="dataSourceStorageLocal" created-in="IU-221.5921.22">
     <data-source name="spring-boot-resume/Hibernate" uuid="6f1dde85-6c04-4fb7-9b61-955c87ba9fe6">
       <database-info product="MariaDB" version="10.7.4-MariaDB" jdbc-version="4.2" driver-name="MariaDB Connector/J" driver-version="2.7.3" dbms="MARIADB" exact-version="10.7.4" exact-driver-version="2.7">
         <extra-name-characters>#@</extra-name-characters>

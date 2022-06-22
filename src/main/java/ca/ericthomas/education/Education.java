@@ -19,7 +19,7 @@ import java.time.LocalDate;
  *
  * @author Eric Thomas
  */
-@Entity(name = "education")
+@Entity(name = "educations")
 public class Education {
 
     @Id

@@ -13,7 +13,7 @@ import javax.persistence.Id;
  *
  * @author Eric Thomas
  */
-@Entity(name = "skill")
+@Entity(name = "skills")
 public class Skill {
 
     @Id
