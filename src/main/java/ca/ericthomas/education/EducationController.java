@@ -10,26 +10,26 @@ import java.util.Optional;
 @RequestMapping(path = "/api")
 public class EducationController {
 
-    public static final String EDUCATION = "/education";
+    public static final String EDUCATIONS = "/educations";
     private final EducationRepository educationRepository;
 
     public EducationController(EducationRepository educationRepository) {
         this.educationRepository = educationRepository;
     }
 
-    @GetMapping(path = EDUCATION)
+    @GetMapping(path = EDUCATIONS)
     public @ResponseBody
     Iterable<Education> getAllEducations() {
         return educationRepository.findAll();
     }
 
-    @GetMapping(path = EDUCATION + "/{id}")
+    @GetMapping(path = EDUCATIONS + "/{id}")
     public @ResponseBody
     Optional<Education> getEducationWithId(@PathVariable Integer id) {
         return educationRepository.findById(id);
     }
 
-    @PostMapping(path = EDUCATION)
+    @PostMapping(path = EDUCATIONS)
     public @ResponseBody
     String addNewEducation(
             @RequestParam String title,
@@ -48,7 +48,7 @@ public class EducationController {
         return "Saved";
     }
 
-    @DeleteMapping(path = EDUCATION)
+    @DeleteMapping(path = EDUCATIONS)
     public @ResponseBody
     String deleteEducation(@RequestParam Integer id) {
         educationRepository.deleteById(id);

@@ -10,7 +10,7 @@ import java.util.Optional;
 @RequestMapping(path = "/api")
 public class ExperienceController {
 
-    public static final String EXPERIENCES = "/experience";
+    public static final String EXPERIENCES = "/experiences";
     private final ExperienceRepository experienceRepository;
 
     public ExperienceController(ExperienceRepository experienceRepository) {

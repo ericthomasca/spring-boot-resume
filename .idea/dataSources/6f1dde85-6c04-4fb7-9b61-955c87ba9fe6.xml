@@ -1251,7 +1251,7 @@
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb3_general_ci</CollationName>
     </table>
-    <table id="338" parent="327" name="skills">
+    <table id="338" parent="327" name="skill">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb3_general_ci</CollationName>
     </table>
@@ -1362,7 +1362,7 @@
       <Position>8</Position>
     </column>
     <column id="361" parent="338" name="id">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>8</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>

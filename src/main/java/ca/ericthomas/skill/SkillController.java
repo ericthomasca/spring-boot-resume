@@ -1,6 +1,5 @@
 package ca.ericthomas.skill;
 
-import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
@@ -10,26 +9,26 @@ import java.util.Optional;
 @RequestMapping(path = "/api")
 public class SkillController {
 
-    public static final String SKILL = "/skills";
+    public static final String SKILLS = "/skills";
     private final SkillRepository skillRepository;
 
     public SkillController(SkillRepository skillRepository) {
         this.skillRepository = skillRepository;
     }
 
-    @GetMapping(path = SKILL)
+    @GetMapping(path = SKILLS)
     public @ResponseBody
     Iterable<Skill> getAllSkills() {
         return skillRepository.findAll();
     }
 
-    @GetMapping(path = SKILL + "/{id}")
+    @GetMapping(path = SKILLS + "/{id}")
     public @ResponseBody
     Optional<Skill> getSkillWithId(@PathVariable Integer id) {
         return skillRepository.findById(id);
     }
 
-    @PostMapping(path = SKILL)
+    @PostMapping(path = SKILLS)
     public @ResponseBody
     String addNewSkill(
             @RequestParam String type,
@@ -41,7 +40,7 @@ public class SkillController {
         return "Saved";
     }
 
-    @DeleteMapping(path = SKILL)
+    @DeleteMapping(path = SKILLS)
     public @ResponseBody
     String deleteSkill(@RequestParam Integer id) {
         skillRepository.deleteById(id);

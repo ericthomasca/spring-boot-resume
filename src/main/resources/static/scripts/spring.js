@@ -1,12 +1,13 @@
-const requestOptions = {
-    method: 'GET',
-    redirect: 'follow'
-};
+const educationURL = "http://localhost:8080/api/education";
+fetch(educationURL).then(response => response.json()).then(data => {
+    console.log(data);
+    let education = data;
+    let educationList = document.getElementById("educationList");
+    education.forEach(education => {
+let educationItem = document.createElement("li");
+        educationItem.innerHTML = education.school + " " + education.degree + " " + education.graduationYear;
+        educationList.appendChild(educationItem);
 
-
-function fetchExperience() {
-    fetch("http://localhost:8080/api/experiences", requestOptions)
-        .then(response => response.text())
-        .then(result => console.log(result))
-        .catch(error => console.log('error', error));
+    }
+    );
 }
