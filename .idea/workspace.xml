@@ -8,10 +8,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4492464-a687-4cae-b052-5dd4af124c2d" name="Changes" comment="repair api and database">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6f1dde85-6c04-4fb7-9b61-955c87ba9fe6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6f1dde85-6c04-4fb7-9b61-955c87ba9fe6.xml" afterDir="false" />
+    <list default="true" id="e4492464-a687-4cae-b052-5dd4af124c2d" name="Changes" comment="fix links">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/ericthomas/education/EducationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/ericthomas/education/EducationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/spring.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/spring.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/spring.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/spring.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,29 +68,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/erict/Downloads/github-copilot-intellij-1.1.26.1691.zip&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.4218391&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;984e479b7068964b42e14007cb441ec9&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/erict/Downloads",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.4218391",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "984e479b7068964b42e14007cb441ec9"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mariadb&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\erict\School\CP3566 Applied Java Programming\spring-boot-resume\src\main\java\ca\ericthomas" />
@@ -150,7 +151,12 @@
       <workItem from="1655915511350" duration="26000" />
       <workItem from="1655915575680" duration="24000" />
       <workItem from="1655915861347" duration="9000" />
-      <workItem from="1655917511176" duration="1513000" />
+      <workItem from="1655917511176" duration="4584000" />
+      <workItem from="1655938994633" duration="752000" />
+      <workItem from="1655993844958" duration="24000" />
+      <workItem from="1656012521736" duration="1288000" />
+      <workItem from="1656013943814" duration="191000" />
+      <workItem from="1656014761587" duration="1724000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1655529023595</created>
@@ -334,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655919369056</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="fix links">
+      <created>1655920691780</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1655920691780</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,6 +389,18 @@
     <MESSAGE value="tweaking" />
     <MESSAGE value="fix class naming" />
     <MESSAGE value="repair api and database" />
-    <option name="LAST_COMMIT_MESSAGE" value="repair api and database" />
+    <MESSAGE value="fix links" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix links" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ca/ericthomas/education/EducationController.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

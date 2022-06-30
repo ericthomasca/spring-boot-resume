@@ -1,5 +1,6 @@
 package ca.ericthomas.education;
 
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;
@@ -35,8 +36,8 @@ public class EducationController {
             @RequestParam String title,
             @RequestParam String institution,
             @RequestParam String location,
-            @RequestParam LocalDate startDate,
-            @RequestParam LocalDate endDate
+            @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME) LocalDate startDate,
+            @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME) LocalDate endDate
     ) {
         Education education = new Education();
         education.setTitle(title);
